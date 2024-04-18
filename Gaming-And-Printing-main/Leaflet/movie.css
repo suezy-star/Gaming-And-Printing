@@ -1,0 +1,101 @@
+
+
+body {
+    Font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('gamess.png');
+    background-size: cover;
+    font-size: medium;
+}
+
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem ;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    margin-right: 1rem;
+    vertical-align: middle;
+    border-radius: 50em;
+  }
+
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .centered {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+
+.header a:hover {
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.movie {
+    background-color: #000000;
+    color:#ffff;
+    border: 1px solid #ddd;
+    flex: 1 0 300px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.movie img {
+    max-width: 100%;
+}
+
+.movie h2 {
+    margin: 0 0 0.5rem;
+}
+
+.movie p {
+    margin: 0.5rem 0 1rem;
+}
+
+.movie a {
+    background-color: cyan;
+    border: 1px solid #333;
+    color: #333;
+    display: block;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.movie a:hover {
+    background-color: #ff00ea;
+}

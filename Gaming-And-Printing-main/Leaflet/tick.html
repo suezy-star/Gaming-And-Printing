@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaflet - Home</title>
+    <link rel="stylesheet" href="tick.css">
+    </head>
+
+<body>
+    <header class="header">
+      <img src="Leaflet Logo.PNG"  alt="Leaflet Logo">
+    
+      <h1>LEAFLET</h1><br>
+      <h2>Movie Theater</h2>
+    
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Printing.html">Printing Hub</a></li>
+                <li><a href="Gaming.html">Gaming Hub</a></li>
+                <li><a href="Movie.html">Movie Night</a></li> 
+                <li><a href="Order.html">Order</a></li>
+                <li><a href="Baking.html">Baking Palace</a></li>
+                <li><a href="Code.html">Tech Army</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="container">
+    <div class="movie" id="movie1">
+      <!-- ... -->
+      <a href="#" class="buy-tickets-btn" data-movie-id="movie1">Buy Tickets</a>
+    </div>
+    <div class="movie" id="movie2">
+      <!-- ... -->
+      <a href="#" class="buy-tickets-btn" data-movie-id="movie2">Buy Tickets</a>
+    </div>
+    <div class="movie" id="movie3">
+      <!-- ... -->
+      <a href="#" class="buy-tickets-btn" data-movie-id="movie3">Buy Tickets</a>
+    </div>
+  </div>
+  
+  <!-- Modal for M-Pesa payment -->
+  <div class="modal" id="payment-modal">
+    <div class="modal-content">
+      <h2>Enter your M-Pesa details to complete the payment:</h2>
+    
+      <form id="payment-form">
+        <form method="post">
+            <input type="button" value="Close Window" 
+            onclick="window.close()">
+            </form>
+            
+            <input type="button" name="cancelvalue" value="CANCEL" 
+            onClick="self.close()"> 
+        <input type="hidden" id="movie-id" name="movieId">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" required>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <button type="submit">Pay with M-Pesa</button>
+        <button class="btn"><i class="fa fa-close"></i> Close</button>
+    
+      </form>
+    </div>
+  </div>
+  <script src="tick.js"></script>
+  </body>
+  </html>

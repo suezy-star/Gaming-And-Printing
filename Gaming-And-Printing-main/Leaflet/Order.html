@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Order Form</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="order.css">
+</head>
+<body>
+		<header>
+		  <img src="Leaflet Logo.PNG"  alt="Leaflet Logo">
+		  <h1>LEAFLET</h1>
+		  <h2>Order Form</h2>
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="Printing.html">Printing Hub</a></li>
+					<li><a href="Gaming.html">Gaming Hub</a></li>
+					<li><a href="Movie.html">Movie Night</a></li>
+					<li><a href="Order.html">Order</a></li>
+					<li><a href="Baking.html">Baking Palace</a></li>
+                    <li><a href="Code.html">Tech Army</a></li>
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>                                                                                            
+			</nav>
+		</header>
+	<h3 class="centered">Order</h3>
+	<form action="/submit-order" method="post" enctype="multipart/form-data">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="product">Product:</label><br>
+		<select id="product" name="product">
+			<option value="product1">Shirts</option>
+			<option value="product2">Shorts</option>
+			<option value="product3">Tumbler</option>
+            <option value="product4">Gift Cards</option>
+            <option value="product5">Invitation Card</option>
+            <option value="product6">Caps</option>
+            <option value="product7">Cups</option>
+            <option value="product8">Hoodies</option>
+            <option value="product9">Books</option>
+            <option value="product10">Diaries</option>
+            <option value="product11">Cute Package</option>
+            <option value="product12">Banners</option>
+			<option value="product13">Cake</option>
+		</select><br>
+		<label for="quantity">Quantity:</label><br>
+		<input type="number" id="quantity" name="quantity" min="1"><br>
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message"></textarea><br>
+		<input type="file" id="attachment" name="attachment" accept=".pdf, .doc, .docx"><br>
+		
+	</form>
+    <form action="mailto:suzielizbel@gmail.com" method="post" enctype="text/plain">
+       
+        <input type="submit" value="submit-order">
+      </form>
+	  <footer>
+        ©  Leaflet Love
+    </footer>
+</body>
+</html>

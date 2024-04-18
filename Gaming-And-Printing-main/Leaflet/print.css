@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  header img {
+    height: 100px;
+    width: 100px;
+    margin-right: 1rem;
+    vertical-align: middle;
+    border-radius: 50em;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .services {
+    background-image: url('aesthetic.png');
+    background-size: cover;
+    
+    padding: 2rem;
+  }
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+main {
+    margin: 2rem;
+}
+
+.image-container {
+    margin-bottom: 2rem;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.image-container p {
+    margin: 1rem 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
